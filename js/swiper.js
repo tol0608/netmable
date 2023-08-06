@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Swiper 객체를 생성합니다.
     const progressCircle = document.querySelector(".autoplay-progress svg");
-    const progressContent = document.querySelector(".autoplay-progress span");
     var mySwiper1 = new Swiper('.mySlideSwiper', {
         slidesPerView: 1,
         effect: 'slide',
@@ -20,16 +19,15 @@ document.addEventListener("DOMContentLoaded", function () {
         pagination: {
             el: '.swiper-pagination', // pagination 요소를 지정합니다.
             clickable: false,          // 사용자가 pagination을 클릭할 수 있도록 합니다.
-            type: 'fraction',
-
+            type: 'fraction'
         },
         on: {
             autoplayTimeLeft(s, time, progress) {
                 progressCircle.style.setProperty("--progress", 1 - progress);
-                progressContent.textContent = `${Math.ceil(time / 1000)}s`;
             }
-        }
-
+        },
+        observer: true,
+        observeParents: true
     });
 
     function updateProgressBar(progress) {
