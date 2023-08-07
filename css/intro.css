@@ -3,6 +3,30 @@
     height: 100%;
 }
 
+.header::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 79px;
+    left: 0;
+    background-color: #f0f1f2;
+    z-index: 1;
+}
+
+.gnb_ul .yellow_line::after {
+    content: '';
+    width: 70px;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    border-top: 4px solid #ffd44a;
+}
+
+.gnb_ul .select_page {
+    color: #1f1f1f;
+}
+
 .intro_title p {
     margin-bottom: 4px;
     color: rgba(30, 30, 30, .5);
