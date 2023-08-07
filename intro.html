@@ -18,26 +18,24 @@
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/intro.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
 <div class="main">
-    <header class="header">
+    <header class="header header_on">
         <div class="gnb">
-            <div class="logo_white on"><img src="./image/logo_white.png" alt="netmable"></div>
-            <div class="logo"><img src="./image/logo.png" alt="netmable"></div>
+            <div class="logo_white"><img src="./image/logo_white.png" alt="netmable"></div>
+            <div class="logo on"><img src="./image/logo.png" alt="netmable"></div>
             <div class="gnb_back">
                 <ul class="gnb_ul flx">
                     <li>
-                        <a href="#" class="lnb_title">재단소개</a>
+                        <a href="#" class="lnb_title on">재단소개</a>
                         <ul class="lnb">
                             <li><a href="#">넷마블문화재단</a></li>
                             <li><a href="#">오시는 길</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="lnb_title">재단활동</a>
+                        <a href="#" class="lnb_title on">재단활동</a>
                         <ul class="lnb">
                             <li><a href="#">문화 만들기</a></li>
                             <li><a href="#">인재 키우기</a></li>
@@ -45,7 +43,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="lnb_title">재단소식</a>
+                        <a href="#" class="lnb_title on">재단소식</a>
                         <ul class="lnb">
                             <li><a href="#">공지사항</a></li>
                             <li><a href="#">뉴스룸</a></li>
@@ -57,7 +55,34 @@
         </div>
     </header>
     <div class="container">
-
+        <div class="wrap">
+            <div class="intro_title">
+                <p>재단소개</p>
+                <h3>오시는 길</h3>
+            </div>
+            <ul class="intro_ul">
+                <li>
+                    <h5>주소</h5>
+                    <p>서울특별시 구로구 디지털로26길 38,<br>
+                        G-Tower 넷마블
+                    </p>
+                </li>
+                <li>
+                    <h5>이메일</h5>
+                    <p>CSR@netmarble.com</p>
+                </li>
+                <li>
+                    <h5>대표전화</h5>
+                    <p>02 - 2271 - 7600</p>
+                </li>
+            </ul>
+            <div class="email_btn_sec">
+                <button class="email_btn">이메일 문의하기</button>
+            </div>
+        </div>
+        <div class="map_area">
+            <div id="map"></div>
+        </div>
     </div>
     <footer>
         <div class="footer-inner">
@@ -84,16 +109,8 @@
     </footer>
 </div>
 <!--여기에 js 넣어주세요-->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="./js/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-<script src="./js/swiper.js"></script>
-<script src="./js/sec3.js"></script>
-<script src="./js/gnb.js"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4674448144fc80b7fa04cee865c966e6"></script>
+<script src="./js/map.js"></script>
 
-</div>
 </body>
 </html>
