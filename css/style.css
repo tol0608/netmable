@@ -40,7 +40,7 @@
 
 .header {
     width: 100%;
-    min-height: 70px;
+    min-height: 65px;
     align-items: center;
     position: fixed;
     left: 0;
@@ -561,7 +561,6 @@
 .sec3_slide .swiper-scrollbar .swiper-scrollbar-drag {
     background: rgba(0, 0, 0, 0.1);
 }
-
 
 /* ---------------------------footer--------------------------- */
 
