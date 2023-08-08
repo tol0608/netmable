@@ -5,7 +5,7 @@
     width: 1px;
     height: 1px;
     margin: -1px;
-    paping: 0;
+    padding: 0;
     white-space: nowrap;
     border: 0;
     clip: rect(0 0 0 0);
@@ -48,8 +48,7 @@
     position: relative;
     width: 1280px;
     margin: 0 auto;
-    paping: 180px 32px;
-    -webkit-box-sizing: border-box;
+    padding: 180px 32px;
     box-sizing: border-box;
 }
 
@@ -85,7 +84,7 @@
 
 #app.pc .sub-area {
     position: relative;
-    paping-bottom: 36px;
+    padding-bottom: 36px;
     text-align: left;
 }
 
@@ -103,22 +102,6 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5;
-}
-
-#app.pc .sub-area:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 70px;
-    height: 5px;
-    background-color: #ffd44a;
-}
-
-#app.pc .list-cts:after {
-    display: block;
-    content: "";
-    clear: both;
 }
 
 #app.pc .list-cts .list01 {
@@ -150,7 +133,7 @@
 
 #app.pc .list-cts p {
     margin-top: 20px;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 #app.pc .list-cts .list01:first-child {
@@ -199,10 +182,23 @@
     margin-top: 0;
 }
 
+.custom-hr-yellow {
+    border: none;
+    border-top: 5px solid rgb(255, 211, 78);
+    margin-left: 0;
+    width: 70px;
+}
+.custom-hr-black {
+    border: none;
+    border-top: 5px solid #000000;
+    margin-left: 0;
+    width: 70px;
+}
+
 /*---------------- activity ----------------*/
 
 #app.pc .activity01-title {
-    padding-top: 300px;
+    padding-top:200px;
     height: 662px;
 }
 
@@ -223,11 +219,8 @@
 }
 
 .activity-cont1 {
+    padding-bottom: 200px;
     background-color: #ffd44a;
-}
-
-.activity-cont1 .sub-area:after {
-    background-color: #1e1e1e !important;
 }
 
 .activity01-cont2 {
@@ -263,8 +256,7 @@
 
 #app.pc .activity01-cont2 .half-area .half02 {
     width: 624px;
-    paping-left: 136px;
-    -webkit-box-sizing: border-box;
+    padding-left: 136px;
     box-sizing: border-box;
 }
 
@@ -277,7 +269,7 @@
 }
 
 #app.pc .activity01-cont3 .cont {
-    paping-top: 0;
+    padding-top: 0;
 }
 
 #app.pc .activity01-cont3 .half-area {
@@ -315,41 +307,40 @@
 }
 
 #app.pc .activity01-cont4 .cont {
-    paping-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 #app.pc .activity01-cont4 .banner4 {
     width: 100%;
     height: 600px;
+    object-fit: cover;
 }
 
 #app.pc .activity02-title {
-    padding-top: 300px;
+    padding-top:200px;
     height: 662px
 }
 
 .banner5 {
     position: absolute;
-    top: -150px;
+    top: 0;
     right: 0;
     width: 592px;
     height: 720px;
 }
 
 .activity02-cont1 {
+    padding-bottom: 200px;
     background-color: #ffd44a
 }
 
-.activity02-cont1 .sub-area:after {
-    background-color: #1e1e1e !important
-}
 
 #app.pc .activity02-cont2 {
     height: 1404px
 }
 
 #app.pc .activity02-cont2 .cont {
-    paping-bottom: 0
+    padding-bottom: 0;
 }
 
 #app.pc .activity02-cont2 .half-area {
@@ -369,15 +360,15 @@
 
 #app.pc .activity02-cont2 .list-cts .list01 {
     width: 460px;
-    paping-left: 250px
+    padding-left: 250px
 }
 #app.pc .activity02-cont2 .list-cts .list02 {
     width: 460px;
-    paping-left: 250px
+    padding-left: 250px
 }
 #app.pc .activity02-cont2 .list-cts .list03 {
     width: 460px;
-    paping-left: 250px
+    padding-left: 250px
 }
 
 #app.pc .activity02-cont2 .img-area {
@@ -399,8 +390,8 @@
 }
 
 #app.pc .activity02-cont3 .cont {
-    paping-top: 0;
-    paping-bottom: 120px
+    padding-top: 0;
+    padding-bottom: 120px
 }
 
 #app.pc .activity02-cont3 .banner8 {
@@ -408,28 +399,25 @@
 }
 
 #app.pc .activity03-title {
-    padding-top: 300px;
+    padding-top:200px;
     height: 662px;
 }
 
 #app.pc .activity03-title .banner9 {
     position: absolute;
-    top: -132px;
+    top: 0;
     right: 0;
     width: 592px;
     height: 720px;
 }
 
 .activity03-cont1 {
+    padding-bottom: 200px;
     background-color: #ffd44a
 }
 
-.activity03-cont1 .sub-area:after {
-    background-color: #1e1e1e !important
-}
-
 #app.pc .activity03-cont2 .cont {
-    paping-bottom: 120px
+    padding-bottom: 120px
 }
 
 #app.pc .activity03-cont2 .banner10 {
@@ -443,4 +431,18 @@
 
 #app.pc .activity03-cont2 .list-cts {
     margin-top: -78px
+}
+
+#app.pc .btn-dark {
+    display: inline-block;
+    height: 48px;
+    background-color: #1f1f22;
+    padding: 0 16px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
 }

@@ -9,12 +9,6 @@ body {
   background-color: #F7F8FA;
 }
 
-header{
-  width:100%;    /*  너비 */
-  height:75px;   /* 높이 */ 
-  background-color:white
-}
-
 .container {
   display: grid;
   grid-template-columns: repeat(4, 270px);
@@ -25,11 +19,28 @@ header{
   box-sizing: border-box;
 }
 
-#logo{
-  position: relative;
-  padding-top: 85px;
-  padding-right: 1010px;
-  padding-bottom: 20px;
+.tit-area {
+  margin-top: 130px;
+  text-align: left;
+}
+
+.tit-area .top-txt {
+  display: block;
+  margin-bottom: 4px;
+  color: rgba(30, 30, 30, 0.5);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.63;
+  letter-spacing: -0.6px;
+}
+
+.tit-area .tit {
+  display: block;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.31;
+  letter-spacing: -2px;
+  text-indent: -2px;
 }
 
 .box {
@@ -65,7 +76,6 @@ header{
 }
 
 .load-more {
-  margin: 30px auto 0;
   display: block; /* 요소를 블록 레벨로 설정하여 가로 가운데 정렬이 가능하도록 함 */
   margin: 60px  0 185px 500px 
 }
@@ -79,7 +89,6 @@ header{
   background-color: #1f1f22;
   font-size: 21px;
   font-weight: 500;
-  font-weight: bold;
   line-height: 68px;
   text-align: center;
   box-shadow: 0 30px 60px 0 rgba(96,97,112,.15);
@@ -92,16 +101,10 @@ header{
 
 .load-more button:hover {
   margin-top: 20px; /* 혹은 다른 원하는 값 */
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
   cursor: pointer;
 }
 
 .hidden {
   display: none;
-}
-
-footer{
-  background-color: black;
-  height: 290px;
-  width: 100%;
 }

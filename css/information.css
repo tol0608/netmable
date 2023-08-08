@@ -1,8 +1,5 @@
-body {
+.container {
     margin: 0 auto;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    height: 350vh; /* 스크롤을 위해 body의 높이를 늘립니다 */
 }
 
 .image-container {
@@ -12,7 +9,6 @@ body {
     top: 0;
     left: 0;
     background-size: cover; /* 배경 이미지 크기 */
-    opacity: 1; /* 초기 투명도 설정 */
     transition: opacity 0.5s ease; /* 투명도 변화에 애니메이션 효과 추가 */
 }
 
@@ -24,13 +20,14 @@ body {
 
 #sub_tab {
     width: 1300px;
-    margin: 0 auto;
-    margin-bottom: 150px;
+    margin: auto auto 150px auto;
 }
 
 #identity {
     width: 1300px;
     margin: 300px auto 200px auto;
+    display: flex;
+    justify-content: center;
 }
 
 .identity_cover {
@@ -62,7 +59,8 @@ body {
 
 #ani3 {
     margin-top: 800px;
-    margin-left: 1030px;
+    margin-left: auto;
+    margin-right: 100px;
     color: #fff;
     font-size: 24px;
     font-weight: 500;
@@ -80,7 +78,8 @@ body {
 
 #ani5 {
     margin-top: 1600px;
-    margin-left: 1030px;
+    margin-left: auto;
+    margin-right: 100px;
     color: #fff;
     font-size: 24px;
     font-weight: 500;
@@ -129,38 +128,36 @@ body {
 .custom-hr {
     border: none;
     border-top: 5px solid rgb(255, 211, 78);
-    margin-left: 0px;
+    margin: 30px 0 40px 0;
     width: 70px;
 }
 
 .custom-hr2 {
-    margin: 40px;
+    margin: 30px 0 40px 0;
     border: none;
     border-top: 5px solid rgb(255, 211, 78);
-    margin-left: 0px;
     width: 70px;
 }
 
 .card_list {
     display: flex;
+    justify-content: space-evenly;
     margin-top: 50px;
     margin-left: 10px;
 }
 
 .icon {
-    content: "";
-    position: absolute;
-    top: 20px;
-    left: 40px;
     width: 48px;
     height: 48px;
+    margin-left: 30px;
+    margin-bottom: 20px;
     background-color: #ffd44a;
     background-repeat: no-repeat;
     background-image: url(https://sgimage.netmarble.com/mobile/game/foundation/brand/v2/img/ico-intro.2c8ff58.png);
     border-radius: 40px;
 }
 
-.card_list dl {
+.card_list .list_01, .card_list .list_02, .card_list .list_03 {
     border: none;
     padding: 10px;
     width: 370px;
@@ -168,24 +165,27 @@ body {
     margin-right: 30px;
     background-color: #fff; /* 배경색 추가 */
     box-shadow: 0 30px 60px 0 rgba(96, 97, 112, .15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card_list .list_03 {
     margin-right: 0;
 }
 
-.card_list dt {
+.card_list .list_title {
     display: block;
     position: relative;
-    padding-top: 45px;
     padding-left: 40px;
     font-size: 21px;
     font-weight: 700;
     line-height: 1.52;
 }
 
-dd {
+.card_list p {
     margin-top: 15px;
+    padding-left: 40px;
     font-size: 15px;
     line-height: 1.6;
 }
@@ -216,7 +216,6 @@ dd {
     height: 48px;
     background-color: #1f1f22;
     padding: 0 16px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 24px;
     color: #fff;
@@ -228,7 +227,7 @@ dd {
 }
 
 .btn:hover {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
     cursor: pointer;
 }
 
