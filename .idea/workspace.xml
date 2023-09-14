@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="netmarble:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea49b1b2-d6f8-4aba-81ea-facd16f8ce7d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netmarble.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/netmarble/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/user/userDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-j-8.0.33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/join.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/joinAction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/loginAction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/logoutAction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/netmarble/HelloServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/user/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/user/userDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/WEB-INF/classes/com/example/netmarble/HelloServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/WEB-INF/classes/user/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/WEB-INF/classes/user/userDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-j-8.0.33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/activity1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/activity2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/activity3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/css/activity.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/css/information.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/css/intro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/css/notice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/banner10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/banner4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/banner5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/banner6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/banner7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/banner8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/banner9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/ci1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/ci2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/ci3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/ci4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/logo_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/sec1_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/sec1_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/sec1_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/sec2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/sec3_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/sec3_2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/sec3_3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/slide1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/slide2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/slide3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/slide4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/slide5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지10.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지11.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지12.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지13.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지14.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지15.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지16.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지17.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지18.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지19.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지20.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지21.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지22.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지23.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지24.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지25.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지26.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지27.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지28.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지29.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지30.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지31.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지32.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지33.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지34.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지35.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지36.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지37.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지38.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지39.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지40.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지7.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지8.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/image/이미지9.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/information.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/intro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/join.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/joinAction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/js/gnb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/js/information.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/js/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/js/notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/js/sec3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/loginAction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/logoutAction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/notice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/netmarble-1.0-SNAPSHOT/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/netmable.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/activity1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/activity2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/activity3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/activity.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/activity.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/information.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/information.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/intro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/notice.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/notice.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/banner1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/banner10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/banner10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/banner2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/banner2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/banner3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/banner4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/banner4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/banner5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/banner5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/banner6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/banner6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/banner7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/banner7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/banner8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/banner8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/banner9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/banner9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/bg1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ci1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/ci1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ci2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/ci2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ci3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/ci3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ci4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/ci4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/instagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/logo_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/logo_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/next.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/next.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/prev.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/prev.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/sec1_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/sec1_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/sec1_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/sec1_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/sec1_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/sec1_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/sec2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/sec2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/sec3_1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/sec3_1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/sec3_2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/sec3_2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/sec3_3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/sec3_3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/slide1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/slide1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/slide2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/slide2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/slide3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/slide3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/slide4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/slide4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/slide5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/slide5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/youtube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지10.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지10.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지11.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지11.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지12.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지12.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지13.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지13.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지14.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지14.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지15.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지15.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지16.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지16.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지17.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지17.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지18.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지18.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지19.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지19.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지20.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지20.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지21.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지21.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지22.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지22.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지23.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지23.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지24.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지24.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지25.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지25.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지26.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지26.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지27.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지27.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지28.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지28.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지29.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지29.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지30.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지30.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지31.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지31.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지32.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지32.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지33.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지33.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지34.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지34.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지35.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지35.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지36.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지36.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지37.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지37.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지38.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지38.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지39.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지39.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지40.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지40.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지5.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지6.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지6.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지7.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지7.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지8.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지8.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/이미지9.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/image/이미지9.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/information.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/intro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/aos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/aos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/gnb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/gnb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/information.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/information.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/notice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/notice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sec3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/sec3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/notice.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2VO8m88EyLhS9I1vVRUQCu2JIik" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/jaehyeonlee/Desktop/workspace/netmable",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.171875",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.801" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.801" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="netmarble:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/netmarble_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="d5b9234e-aa7d-4903-a24e-23a61c2417f6" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61419" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="netmarble:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea49b1b2-d6f8-4aba-81ea-facd16f8ce7d" name="Changes" comment="" />
+      <created>1694695922056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694695922056</updated>
+      <workItem from="1694695923084" duration="329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
